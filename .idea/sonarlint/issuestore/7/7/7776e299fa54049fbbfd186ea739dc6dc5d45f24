@@ -1,0 +1,15 @@
+
+b
+java:S2095O"GUse try-with-resources or close this "Worksheet" in a "finally" clause.(Îõûÿÿÿÿ
+]
+java:S2095P"GUse try-with-resources or close this "Worksheet" in a "finally" clause.(äÌìù
+7	java:S131""Add a default case to this switch.(ì’ä¸
+?	java:S106'"+Replace this use of System.out by a logger.(ÄÅ‚V
+@	java:S1064"+Replace this use of System.out by a logger.(úÌ»
+E	java:S1067"+Replace this use of System.out by a logger.(ÑùÇºøÿÿÿÿ
+@	java:S106:"+Replace this use of System.out by a logger.(é¡‡
+E	java:S106C"+Replace this use of System.out by a logger.(Ÿ°û¸úÿÿÿÿ
+E	java:S106o"+Replace this use of System.out by a logger.(Õõóúÿÿÿÿ
+E	java:S106p"+Replace this use of System.out by a logger.(ÀéÚÙøÿÿÿÿ
+F
+java:S1128"0Remove this unused import 'java.nio.file.Paths'.(áè°¯
