@@ -6,10 +6,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Stream;
 import org.dhatim.fastexcel.Workbook;
 import org.dhatim.fastexcel.Worksheet;
@@ -91,7 +88,7 @@ public class Ejercicio1 {
                             data.get(r.getRowNum()).add(cell.getRawValue());
                             String value = cell.getRawValue();
                             if (cell.getType() == CellType.BOOLEAN) {
-                                value = Boolean.toString(Boolean.parseBoolean(String.valueOf(cell.getType())));
+                                value = Objects.equals(cell.getRawValue(), "0") ? "false" : "true";
                             }
                             hoja1.value(r.getRowNum(), cell.getColumnIndex(), value);
                             if(validadorTipoDato.esNumero(value)){
